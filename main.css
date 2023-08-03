@@ -1,37 +1,72 @@
 h1 {
     font-size: ;
-    font-family: ;
+    font-family: "Palatino", serif;
     padding: ;
-    margin: ;
+    margin-right: 160px;
     font-weight: ;
     text-decoration: ;
-    color: ;
+    color: #615F50;
     background-color: ;
+    text-align: right;
+}
+
+body {
+    background-color: #31322C;
+}
+
+div.content {
+    max-width: 1050px;
+    background-color: white;
+    margin: auto;
+    padding: 70px;
+    display: flow-root;
+}
+
+.story-box {
+    max-width: 500px;
+    background-color: #A8C4D0;
+    padding: 50px;
+    float: left;
+}
+
+.picture-box {
+    float: right;
 }
 
 h2 {
     font-size: ;
-    font-family: ;
+    font-family: "Palatino", serif;
     padding: ;
-    margin: ;
+    margin-top: 0;
     font-weight: ;
-    color: ;
+    color: #4A4E59;
     background-color: ;
 }
 
 p {
-    font-family: ;
+    font-family: "Palatino", serif;
     font-size: ;
     padding: ;
     margin: ;
-    color: ;
+    color: #4A4E59;
     background-color: ;
 }
 
+.photo-credit {
+    font-family: "Palatino", serif;
+    font-size: 8px;
+    color: #A8C4D0;
+    text-align: right;
+}
+
 .logo {
-    background-size: cover;
-    background-image: url();
-    background-color: ;
-    height: ;
-    width: ;
+
+    background-image: url(https://appacademy.github.io/styleguide/assets/logo/logo-emblem-black-1000.png);
+    background-size: 100px;
+    height: 100px;
+    width: 100px;
+    clear: both;
+    margin: 20px;
+    margin-left: 160px;
+
 }
